@@ -1,3 +1,156 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: aqua;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    border: 5px solid red;
+    width: 15%;
+    height: auto;
+}
+.logo img {
+    width: 100%;
+    height: 4rem;
+}
+.first-row {
+    border: 5px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar {
+    border: 5px solid purple;
+}
+nav ul{
+    display: flex;
+    gap: .3rem;
+    border: 5px solid yellow;
+}
+ul li {
+    border: 4px solid black;
+    list-style: none;
+} */
+
+/* CSS/styles.css */
+
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+
+.first-container {
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+   /*  border: 5px solid red; */
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 125px;
+    height: auto;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    cursor: pointer;
+}
+.nav-bar ul li:hover {
+    color: #ff6600;
+    transition: 200ms ease-in-out;
+    transform: scale(1.35);
+}
+
+.nav-bar li {
+    margin-right: 25px;
+}
+
+/* Second Row Styles */
+
+.second-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.first-column h1 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.first-column p {
+    font-size: 24px;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.first-column button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.first-column button:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(1.15);
+    margin-left: 10px;
+    background-color: red;
+    color: black;
+}
+.second-column img {
+    max-width: 400px;
+    height: auto;
+}
+
+/* Container Styles */
+
+.second-container {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.third-container {
+    background-color: #f1f1f1;
+    padding: 40px;
+}
+
+.fourth-container {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+/* Footer Styles */
+
+#footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
 }
