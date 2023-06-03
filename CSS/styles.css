@@ -215,12 +215,24 @@ span {
 }
 .main-container {
     background-color: #555555;
-    display: flex;
-    justify-content: space-between;
-}
-.main-container {
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
     align-items: center;
-    justify-content:space-between;
-
+}
+.call {
+    text-align: center;
+    margin-bottom: 1.35rem
+}
+.call h2 {
+  font-size: 24px;
+}
+.call p {
+    font-size: 18px;
+}
+#sign-up {
+    cursor: pointer;
 }
