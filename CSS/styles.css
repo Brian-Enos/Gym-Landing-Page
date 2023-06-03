@@ -114,11 +114,11 @@ body {
     cursor: pointer;
 }
 .first-column button:hover {
-    transition: 300ms ease-in-out;
+    transition: 500ms ease-in-out;
     transform: scale(1.15);
     margin-left: 10px;
-    background-color: red;
-    color: black;
+    background-color: black;
+    color: orangered;
 }
 .second-column img {
     max-width: 400px;
@@ -131,15 +131,6 @@ body {
     background-color: #ffffff;
     padding: 40px;
 }
-/* Footer Styles */
-
-#footer {
-    background-color: #333333;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-}
-
 #footer p {
     margin: 0;
 }
@@ -197,6 +188,14 @@ button {
     font-weight: 500;
     font-family: Tahoma, Verdana, sans-serif;
 }
+button:hover {
+    color: orangered;
+    background-color: black;
+    transition: 350ms ease-in-out;
+    transform: scale(1.25);
+    letter-spacing: .18rem;
+    flex: 1;
+}
 .third-container {
     display: flex;
     flex-direction: column;
@@ -212,16 +211,20 @@ span {
     background-color: #f3f3f3;
     padding: 40px;
     margin: 1em 1rem;
+    border-radius: .85rem;
 }
 .main-container {
-    background-color: #555555;
-    color: whitesmoke;
+    background-color: black;
+    color: rgb(245, 245, 245);
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     border: none;
     border-radius: 10px;
     align-items: center;
+    margin: 2rem;
+}
+.main-container p {
+    padding: 0 40px;
 }
 .call {
     text-align: center;
@@ -229,10 +232,30 @@ span {
 }
 .call h2 {
   font-size: 24px;
+  padding: 0 1rem;
 }
 .call p {
     font-size: 18px;
 }
+.last-btn {
+    width: 45%;
+    justify-content: center;
+}
 #sign-up {
     cursor: pointer;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#sign-up:hover {
+    background-color: white;
+    color: black;
+}
+#footer {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
 }
