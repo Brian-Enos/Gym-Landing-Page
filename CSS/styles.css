@@ -201,4 +201,16 @@ h1 {
 
 button {
     width: 45%;
+    border: none;
+    border-radius: 7px;
+    margin: .5rem auto;
+    color: #fff;
+    background-color: #ff6600;
+    padding: .5rem 0;
+    font-weight: 500;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.third-container {
+    display: flex;
+    flex-direction: column;
 }
